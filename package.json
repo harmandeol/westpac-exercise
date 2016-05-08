@@ -1,0 +1,22 @@
+{
+  "name": "westpac-exercise",
+  "version": "1.0.0",
+  "description": "a simple exercise to display lightbox with pregress bar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "westpac",
+    "exercise",
+    "lightbox",
+    "ui",
+    "angular"
+  ],
+  "author": "harman deol",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}

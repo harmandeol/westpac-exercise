@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/app.css"/>
+    <title>LightBoxDemo</title>
+</head>
+<body ng-app='lightBoxDemo'>
+    <div ng-controller='MainCtrl'>
+        <button ng-click='loadData()'>Reset or Open Lightbox Dialog</button>
+        <light-box show='lightboxShown' width="400px">
+            <h4>Progress</h4>
+            <progress-bar total="{{finish}}" complete-label="Complete" complete="{{complete}}" start="{{start}}"></progress-bar>
+        </light-box>
+    </div>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script type="text/javascript" src="/js/lightBoxDemo.module.js"></script>
+    <script type="text/javascript" src="/js/main/dataService.js"></script>   
+    <script type="text/javascript" src="/js/directives/lightbox.Directive.js"></script>
+    <script type="text/javascript" src="/js/directives/progressBar.Directive.js"></script>
+     <script type="text/javascript" src="/js/main/Main.js"></script>
+</body>
+</html>
