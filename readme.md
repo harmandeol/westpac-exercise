@@ -1,6 +1,6 @@
 # westpac-exercise 
 
-a simple exercise to display lightbox with pregress bar
+a simple exercise to display lightbox with progress bar
 
 ## Installation
 
