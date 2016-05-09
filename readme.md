@@ -24,12 +24,11 @@ or watch the [demo](https://westpac-exercise.herokuapp.com)
 
 ## Dependencies
 
-None
+- [express](https://github.com/expressjs/express): Fast, unopinionated, minimalist web framework
 
 ## Dev Dependencies
 
-- [express](https://github.com/expressjs/express): Fast, unopinionated, minimalist web framework
-
+None
 
 ## License
 
