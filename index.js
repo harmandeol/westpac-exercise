@@ -15,6 +15,6 @@ app.use('/js', express.static('js'));
 
 
 app.listen(process.env.PORT||3000, function () {
-  console.log('Listening on port 80');
+  console.log('Listening on port ' + (process.env.PORT||3000));
 });
 

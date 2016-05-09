@@ -22,7 +22,10 @@ app.directive('lightBox', function() {
                     <div class="ng-lightbox-overlay" ng-click="hidelightBox()"></div> \
                     <div class="ng-lightbox" ng-style="lightboxStyle"> \
                         <div class="ng-lightbox-header"> \
-                            <button type="button" class="ng-lightbox-close"  ng-click="hidelightBox()">&times;</button> \
+                            <button class="ng-lightbox-close"  ng-click="hidelightBox()"> \
+                              <i class="fa fa-close" title="Close" aria-hidden="true"></i> \
+                              <span class="sr-only">Close</span> \
+                            </button> \
                             <div class="ng-lightbox-title" ng-transclude="title"></div> \
                         </div> \
                         <div class="ng-lightbox-content" ng-transclude></div> \

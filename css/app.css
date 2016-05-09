@@ -16,9 +16,7 @@ h3, h4, h5, h6 {
   text-align: center;
 }
 
-.progress-summary:after {
-   margin-left: 10px;
-   content:  "\2713 ";
+.progress-summary .fa-check:before {   
    color: green;
 }
 
@@ -76,8 +74,8 @@ h3, h4, h5, h6 {
     vertical-align: center
 }
 .ng-lightbox-content {
-  padding:10px;
-  text-align: left;
+    padding:10px;
+    text-align: left;
 }
 .ng-lightbox-close {
     float: right;
@@ -86,7 +84,7 @@ h3, h4, h5, h6 {
     background-color: #C0C0C0;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
-    border-radius: 15px;
-    font-size: 20px;
-   
+    border-radius: 15px;    
+    color: white;
+    behavior: url(PIE.htc);
 }

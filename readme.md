@@ -6,10 +6,6 @@ a simple exercise to display lightbox with pregress bar
 
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
 
-```sh
-npm install westpac-exercise --save
-```
-
 
 ## Run the project
 
