@@ -1,1 +1,3 @@
-app = angular.module('lightBoxDemo', []);
+(function(){
+    angular.module('lightBoxDemo', []);
+})();
