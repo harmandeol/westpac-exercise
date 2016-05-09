@@ -60,6 +60,13 @@ h3, h4, h5, h6 {
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, SizingMethod='auto expand')";
+  filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=1,
+            M12=0,
+            M21=0,
+            M22=1,
+            SizingMethod='auto expand');
 
   background-color: #fff;
   box-shadow: 4px 4px 80px #000;
