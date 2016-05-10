@@ -1,5 +1,7 @@
 (function(){
-    angular
+  'use strict';
+  
+  angular
         .module('lightBoxDemo')
         .factory('dataService', ['$http', function($http) {
           var dataService = {
